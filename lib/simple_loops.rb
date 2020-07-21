@@ -11,6 +11,6 @@ end
 
 
 def loop_message_n_times("Hello World" , 5)
-  5.times { puts "Hellow World" }
+  5.times { puts "Hello World" }
 
 end

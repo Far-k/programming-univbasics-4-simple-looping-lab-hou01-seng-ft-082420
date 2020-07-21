@@ -15,4 +15,3 @@ def loop_message_n_times(message1, num)
   3.times {puts "message1"}
 
 end
-   

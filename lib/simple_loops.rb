@@ -15,3 +15,4 @@ while output_array[counter] do
   puts output_array[counter]
   counter += 1
 end
+puts output_array

@@ -13,5 +13,13 @@ def loop_message_n_times(message, 5)
 
 end
 
-array = ["The sky", "is blue"]
-output_array(array)
+quote = ["Be your", "true self", "Z"]
+
+def output_array(quote)
+  counter = 0
+ 
+  while quote[counter] do
+    puts quote[counter]
+    counter += 1
+  end
+end

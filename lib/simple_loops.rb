@@ -10,7 +10,7 @@ end
 
 counter = 0
 output_array = ["one should", "love thyself", "more", "than the material possession", "Hamster"]
- 
+
 while output_array[counter] do
   puts output_array[counter]
   counter += 1

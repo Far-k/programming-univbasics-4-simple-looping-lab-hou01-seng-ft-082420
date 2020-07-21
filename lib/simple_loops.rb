@@ -8,11 +8,10 @@ def loop_message_five_times(message)
   puts message
 end
 
-
 def loop_message_n_times(message, 5)
 
-  puts loop_message_n_times
-end
-
 
 end
+
+array = ["The sky", "is blue"]
+output_array(array)

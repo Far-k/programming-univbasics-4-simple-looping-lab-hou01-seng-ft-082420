@@ -8,10 +8,10 @@ def loop_message_five_times(message)
   puts message
 end
 
-def loop_message_n_times(message, 3)
-  count = 0
-  while count < 3 do
-    puts message
-    count += 1
-  end
+counter = 0
+output_array = ["one should", "love thyself", "more", "than the material possession", "Hamster"]
+ 
+while output_array[counter] do
+  puts output_array[counter]
+  counter += 1
 end

@@ -12,10 +12,7 @@ message1 = ["Hello"]
 num = [3]
 
 def loop_message_n_times(message1, num)
-   counter = 0
+  3.times {puts "message1"}
 
-   while counter < 4 do
-     puts mesage[counter]
-     counter += 1
-   end
 end
+   

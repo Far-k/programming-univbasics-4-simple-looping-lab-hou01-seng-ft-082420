@@ -9,8 +9,8 @@ def loop_message_five_times(message)
 end
 
 
-
-def loop_message_n_times(message , 5.times)
+def loop_message_n_times(message, num)
+5.times do | message |
   puts loop_message_n_times
 end
 

@@ -8,18 +8,10 @@ def loop_message_five_times(message)
   puts message
 end
 
-def loop_message_n_times(message, 5)
-
-
-end
-
-quote = ["Be your", "true self", "Z"]
-
-def output_array(quote)
-  counter = 0
-
-  while quote[counter] do
-    puts quote[counter]
-    counter += 1
+def loop_message_n_times(message, 3)
+  count = 0
+  while count < 3 do
+    puts message
+    count += 1
   end
 end
